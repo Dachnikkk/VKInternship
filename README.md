@@ -17,11 +17,11 @@
 7:56 - Четыре минуты до восьми.<br>
 7:59 - Одна минута до восьми.<br>
 
-Используйте PHP версии 7.4.
-Алгоритм оформите в виде класса TimeToWordConverter реализующего интерфейс:
-interface TimeToWordConvertingInterface
-{
-    public function convert(int $hours, int $minutes): string;
-}
+Используйте PHP версии 7.4.<br>
+Алгоритм оформите в виде класса TimeToWordConverter реализующего интерфейс:<br>
+interface TimeToWordConvertingInterface<br>
+{<br>
+    public function convert(int $hours, int $minutes): string;<br>
+}<br>
 
 Загрузите решение в репозиторий на github/gitlab/bitbucket и приложите ссылку на него в ответ. Не забудьте разрешить доступ.
